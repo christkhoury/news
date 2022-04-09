@@ -1,0 +1,11 @@
+<h1 class="text-center mt-5" style="font-family: 'Courier New', Courier, monospace;">Us news </h1>
+<table class="table table-hover">
+    <thead>
+        <tr> 
+           <th   *ngFor="let data of data">{{data['title']}}></th>
+        </tr>
+        <tr> 
+            <th  *ngFor="let data of data">{{data['summary']}}></th>
+        </tr>
+    </thead></table>
+    <!-- <li> <img   *ngFor="let image of data"src="{{image['image']}}" alt="fff" ></li>  -->

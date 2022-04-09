@@ -1,0 +1,26 @@
+<div id="row">
+    <h1 class="text-center mt-5">Coronavirus Live Data </h1>
+    <br> <br> 
+    <table class="table table-hover">
+        <thead>
+            <tr>
+              <h2>Country Name</h2> 
+               <th *ngFor="let u of infected">{{u["country"]}}></th>
+            </tr>
+            <br>
+            <tr>
+               <h2>Total Infected</h2>
+                <th *ngFor="let i of infected">{{i["infected"]}}></th>
+            </tr>
+        </thead></table></div>
+        <button (click)="reload()"  class="btn btn-danger btn-block">
+            Refresh Data
+        </button>
+        <br>
+        <img src="https://www.who.int/images/default-source/wpro/health-topic/covid-19/slide6bf9c2d1c6be5430a84c65c2c2b5f780b.tmb-479v.jpg?sfvrsn=88796e1d_1" alt="fff" class="img">
+        
+        <img src="https://cdn2.vectorstock.com/i/1000x1000/30/86/protect-yourself-against-coronavirus-covid-19-vector-30343086.jpg" alt="fff" class="img">
+
+        <img src="https://www.cidrap.umn.edu/sites/default/files/public/styles/ss_media_popup/public/media/article/corona_hashtags.jpg?itok=MMMyNjvy" alt="fff" class="img">
+        <h2 href="#"> #staysafe</h2>
+
